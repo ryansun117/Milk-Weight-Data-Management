@@ -1,4 +1,4 @@
-# Final Project for CS 400
+# Final Project for CS 400, Spring 2020
 
 Project Name: Milk Weight Data Management System
 
