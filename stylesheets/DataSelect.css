@@ -1,0 +1,49 @@
+/* Stylesheet for the DataSelectStage */
+
+ListView {
+	/* https://gist.github.com/maybe-joe/7f40e4948abb1857440a76759ef75590 */
+	-fx-background-insets: 0;
+	-fx-padding: 0;
+
+	/* Add a border arround the list view */
+	-fx-border-color: gray;
+    -fx-border-width: 1; 
+}
+
+/* Set the default font size */
+Label, Button {
+    -fx-font-size: 14;
+}
+
+/* Stylize the title */
+Label.title {
+	-fx-font-size: 30;
+	-fx-padding: 5;
+	-fx-font-style: italic; 
+}
+
+/* Center everything in the title grid pane */
+GridPane {
+	-fx-alignment: center;
+}
+
+/* Pad the border pane so nothing touches the edge of the window */
+BorderPane {
+	-fx-padding: 10;
+}
+
+/* Add a bit of padding to buttons */
+Button {
+	-fx-padding: 5;
+}
+
+/* Make the file select button large */
+Button.fileSelect {
+	-fx-max-width: Infinity;
+	-fx-min-height: 36;
+}
+
+/* Add padding to the separator so it isn't right next to the button */
+Separator {
+	-fx-padding: 10;
+}

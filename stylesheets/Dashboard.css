@@ -1,0 +1,23 @@
+/* Make options pane distinct with a border and different background color */
+.optionsBorderPane {
+	-fx-border-color: lightgray;
+	-fx-background-color: #ECECEC;
+
+	/* Only put the border on the right side */
+    -fx-border-width: 0 1 0 0; 
+}
+
+/* Add padding to the report and options pane so that nothing touches the borders */
+.reportPane, .optionsPane {
+	-fx-padding: 10;
+}
+
+/* Add padding to the bottom buttons vBox so that nothing touches the borders */
+.bottomButtonsVBox {
+	-fx-padding: 10;
+}
+
+/* Make the buttons on the bottom of the option pane take the full width of the pane */
+.bottomButton {
+	-fx-max-width: Infinity;
+}
