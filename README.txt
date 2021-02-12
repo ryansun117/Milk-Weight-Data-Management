@@ -1,4 +1,4 @@
-Final Project for CS 400
+# Final Project for CS 400
 
 Project Name: Milk Weight Data Management System
 
